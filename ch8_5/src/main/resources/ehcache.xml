@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+    <cache maxElementsInMemory="1000" name="people"/>
+</ehcache>
