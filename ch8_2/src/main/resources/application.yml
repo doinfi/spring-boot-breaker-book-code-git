@@ -1,0 +1,13 @@
+spring:
+    datasource:
+        driverClassName: oracle.jdbc.OracleDriver
+        password: boot
+        url: jdbc:oracle:thin:@localhost:1521:xe
+        username: boot
+    jackson:
+        serialization:
+            indent_output: true
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
