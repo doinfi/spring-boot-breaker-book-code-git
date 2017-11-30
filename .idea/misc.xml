@@ -9,12 +9,12 @@
       <list>
         <option value="$PROJECT_DIR$/highlight_spring4/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ch6_5/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/ch5_2_3/pom.xml" />
-        <option value="$PROJECT_DIR$/ch6_5/pom.xml" />
       </set>
     </option>
   </component>
