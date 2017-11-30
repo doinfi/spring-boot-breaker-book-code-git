@@ -1,0 +1,14 @@
+book:
+    author: wangyunfei
+    name: spring boot
+
+logging:
+    file: D:/mylog/log.log
+    level:
+        org:
+            springframework:
+                web: DEBUG
+
+server:
+    port: 9090
+    context-path: /helloboot

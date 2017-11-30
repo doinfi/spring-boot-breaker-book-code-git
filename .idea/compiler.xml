@@ -6,7 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ch8_2" />
+        <module name="ch5_2_2" />
+        <module name="highlight_spring4" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -29,7 +30,7 @@
       <module name="ch8_2" target="1.8" />
       <module name="ch8_3" target="1.8" />
       <module name="ch8_4" target="1.8" />
-      <module name="ch8_5" target="1.8" />
+      <module name="ch8_5" target="1.6" />
       <module name="ch8_6_1" target="1.8" />
       <module name="ch8_6_2" target="1.8" />
       <module name="ch9_1" target="1.8" />
@@ -39,9 +40,10 @@
       <module name="ch9_4" target="1.8" />
       <module name="config" target="1.8" />
       <module name="discovery" target="1.8" />
-      <module name="highlight_spring4" target="1.7" />
+      <module name="highlight_spring4" target="1.8" />
       <module name="highlight_springmvc4" target="1.7" />
       <module name="monitor" target="1.8" />
+      <module name="parent" target="1.5" />
       <module name="person" target="1.8" />
       <module name="some" target="1.8" />
       <module name="spring-boot-breaker-book-code" target="1.8" />

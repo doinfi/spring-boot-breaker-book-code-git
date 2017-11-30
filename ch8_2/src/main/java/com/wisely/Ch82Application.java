@@ -14,11 +14,8 @@ public class Ch82Application {
     @Autowired
     PersonRepository personRepository;
 
-
     public static void main(String[] args) {
         SpringApplication.run(Ch82Application.class, args);
-
     }
-
 
 }

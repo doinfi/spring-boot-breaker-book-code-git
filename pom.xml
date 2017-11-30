@@ -5,36 +5,36 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.wisely</groupId>
-    <artifactId>parent</artifactId>
+    <artifactId>spring-boot-breaker-book-code-git</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.8.RELEASE</version>
-    </parent>
+    <!--<parent>-->
+        <!--<groupId>org.springframework.boot</groupId>-->
+        <!--<artifactId>spring-boot-starter-parent</artifactId>-->
+        <!--<version>1.5.8.RELEASE</version>-->
+    <!--</parent>-->
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>1.8</java.version>
-    </properties>
+    <!--<properties>-->
+        <!--<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>-->
+        <!--<java.version>1.8</java.version>-->
+    <!--</properties>-->
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
+    <!--<dependencies>-->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-web</artifactId>-->
+        <!--</dependency>-->
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-test</artifactId>-->
+            <!--<scope>test</scope>-->
+        <!--</dependency>-->
+    <!--</dependencies>-->
 
     <modules>
-        <!--<module>ch5_2_2</module>-->
+        <module>ch5_2_2</module>
         <!--<module>ch5_2_3</module>-->
         <!--<module>ch6_2_3</module>-->
         <!--<module>ch6_4</module>-->
@@ -60,7 +60,7 @@
         <!--<module>ch11_1</module>-->
         <!--<module>ch11_3</module>-->
         <!--<module>ch12</module>-->
-        <!--<module>highlight_spring4</module>-->
+        <module>highlight_spring4</module>
         <!--<module>highlight_springmvc4</module>-->
     </modules>
 

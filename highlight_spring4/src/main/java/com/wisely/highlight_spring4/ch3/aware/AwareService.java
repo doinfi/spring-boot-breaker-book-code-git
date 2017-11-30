@@ -25,14 +25,14 @@ public class AwareService implements BeanNameAware, ResourceLoaderAware {//1
     }
 
     public void outputResult() {
-        System.out.println("Bean������Ϊ��" + beanName);
+        System.out.println("Bean's name :" + beanName);
 
         Resource resource =
-            loader.getResource("classpath:com/wisely/highlight_spring4/ch3/aware/test.txt");
+            loader.getResource("classpath:test.txt");
         try {
 
             System.out.println(
-                "ResourceLoader���ص��ļ�����Ϊ: " + IOUtils.toString(resource.getInputStream()));
+                "ResourceLoader loading file content : " + IOUtils.toString(resource.getInputStream()));
 
         } catch (IOException e) {
             e.printStackTrace();
