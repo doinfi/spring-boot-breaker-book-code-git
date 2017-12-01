@@ -1,0 +1,6 @@
+shell:
+    auth:
+        simple:
+            user:
+                name: wyf
+                password: wyf
