@@ -9,7 +9,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
 @Configuration
-@ComponentScan("com.wisely.highlight_spring4.ch3.taskexecutor")
+@ComponentScan("com.jack.highlight_spring4.ch3.taskexecutor")
 @EnableAsync //1 
 public class TaskExecutorConfig implements AsyncConfigurer {//2
 

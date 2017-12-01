@@ -40,7 +40,7 @@ public class Ch104ApplicationTests {
     @Before //3
     public void setUp() throws JsonProcessingException {
         Person p1 = new Person("wyf");
-        Person p2 = new Person("wisely");
+        Person p2 = new Person("jack");
         personRepository.save(p1);
         personRepository.save(p2);
 

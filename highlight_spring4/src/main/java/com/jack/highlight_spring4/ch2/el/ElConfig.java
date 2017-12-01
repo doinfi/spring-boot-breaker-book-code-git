@@ -12,7 +12,7 @@ import org.springframework.core.env.Environment;
 import org.springframework.core.io.Resource;
 
 @Configuration
-@ComponentScan("com.wisely.highlight_spring4.ch2.el")
+@ComponentScan("com.jack.highlight_spring4.ch2.el")
 @PropertySource("classpath:com/jack/highlight_spring4/ch2/el/test.properties")//7
 public class ElConfig {
 

@@ -92,12 +92,12 @@ public class Ch94Application {
             .enrichHeaders( //1
                 Mail.headers()
                     .subject("来自Spring的新闻")
-                    .to("wisely-man@126.com")
-                    .from("wisely-man@126.com"))
+                    .to("jack-man@126.com")
+                    .from("jack-man@126.com"))
             .handle(Mail.outboundAdapter("smtp.126.com") //2
                 .port(25)
                 .protocol("smtp")
-                .credentials("wisely-man@126.com", "******")
+                .credentials("jack-man@126.com", "******")
                 .javaMailProperties(p -> p.put("mail.debug", "false")), e -> e.id("smtpOut"))
             .get();
     }

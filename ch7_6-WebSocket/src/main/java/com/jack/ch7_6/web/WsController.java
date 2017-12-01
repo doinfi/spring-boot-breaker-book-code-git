@@ -1,7 +1,7 @@
 package com.jack.ch7_6.web;
 
-import com.jack.ch7_6.domain.WiselyMessage;
-import com.jack.ch7_6.domain.WiselyResponse;
+import com.jack.ch7_6.domain.JackMessage;
+import com.jack.ch7_6.domain.JackResponse;
 import java.security.Principal;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.handler.annotation.MessageMapping;
@@ -20,9 +20,9 @@ public class WsController {
 
     @MessageMapping("/welcome")
     @SendTo("/topic/getResponse")
-    public WiselyResponse say(WiselyMessage message) throws Exception {
+    public JackResponse say(JackMessage message) throws Exception {
         Thread.sleep(3000);
-        return new WiselyResponse("Welcome, " + message.getName() + "!");
+        return new JackResponse("Welcome, " + message.getName() + "!");
     }
 
     @MessageMapping("/chat")
