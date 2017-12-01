@@ -4,35 +4,10 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.wisely</groupId>
+    <groupId>com.jack</groupId>
     <artifactId>spring-boot-breaker-book-code-git</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.9.RELEASE</version>
-    </parent>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>1.8</java.version>
-        <spring.boot.version>1.5.9.RELEASE</spring.boot.version>
-    </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
 
     <modules>
         <module>ch6_2_3-hello-config</module>
@@ -47,20 +22,20 @@
         <module>ch8_5-cache</module>
         <module>ch8_6_1-mongodb</module>
         <module>ch8_6_2-redis</module>
-        <!--<module>ch9_1</module>-->
-        <!--<module>ch9_2</module>-->
-        <!--<module>ch9_3_4</module>-->
-        <!--<module>ch9_3_5</module>-->
-        <!--<module>ch9_4</module>-->
-        <!--<module>ch10</module>-->
-        <!--<module>ch10_4</module>-->
-        <!--<module>ch10docker</module>-->
-        <!--<module>ch10war</module>-->
-        <!--<module>ch11_1</module>-->
-        <!--<module>ch11_3</module>-->
-        <!--<module>ch12</module>-->
-        <!--<module>highlight_spring4</module>-->
-        <!--<module>highlight_springmvc4</module>-->
+        <module>ch9_1-spring-security</module>
+        <module>ch9_2-spring-batch</module>
+        <module>ch9_3_4-jms-activemq</module>
+        <module>ch9_3_5-amqp-rabbitmq</module>
+        <module>ch9_4-spring-integration</module>
+        <module>ch10-hot-deploy</module>
+        <module>ch10_4-spring-boot-test</module>
+        <module>ch10-war</module>
+        <module>ch10-docker</module>
+        <module>ch11_1-http-monitor</module>
+        <module>ch11_3-ssh-monitor</module>
+        <module>ch12-spring-cloud</module>
+        <module>highlight_spring4</module>
+        <module>highlight_springmvc4</module>
     </modules>
 
 </project>
