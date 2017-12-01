@@ -1,4 +1,4 @@
-package com.wisely.specs;
+package com.jack.jpa.specs;
 
 import static com.google.common.collect.Iterables.toArray;
 

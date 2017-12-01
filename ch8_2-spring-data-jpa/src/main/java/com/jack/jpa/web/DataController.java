@@ -1,7 +1,7 @@
-package com.wisely.web;
+package com.jack.jpa.web;
 
-import com.wisely.dao.PersonRepository;
-import com.wisely.domain.Person;
+import com.jack.jpa.dao.PersonRepository;
+import com.jack.jpa.domain.Person;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

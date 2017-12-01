@@ -1,4 +1,4 @@
-package com.wisely;
+package com.jack.thymeleaf;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;

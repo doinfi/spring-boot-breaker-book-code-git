@@ -1,7 +1,7 @@
-package com.wisely.dao;
+package com.jack.jpa.dao;
 
-import com.wisely.domain.Person;
-import com.wisely.support.CustomRepository;
+import com.jack.jpa.domain.Person;
+import com.jack.jpa.support.CustomRepository;
 import java.util.List;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

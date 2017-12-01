@@ -22,7 +22,7 @@ public class Ch935Application implements CommandLineRunner {
     }
 
     @Bean //2
-    public Queue wiselyQueue() {
+    public Queue JackQueue() {
         return new Queue("my-queue");
     }
 

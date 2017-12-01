@@ -1,4 +1,4 @@
-package com.wisely.domain;
+package com.jack.jpa.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

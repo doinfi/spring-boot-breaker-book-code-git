@@ -1,4 +1,4 @@
-package com.wisely.entity;
+package com.jack.thymeleaf.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

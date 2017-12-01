@@ -1,14 +1,15 @@
-package com.wisely.ch12_3;
+package com.jack.thymeleaf;
 
-import com.jack.ch11_3.Ch123Application;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.test.context.web.WebAppConfiguration;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringBootTest(classes = Ch123Application.class)
-public class Ch123ApplicationTests {
+@SpringBootTest(classes = Ch72Application.class)
+@WebAppConfiguration
+public class Ch72ApplicationTests {
 
     @Test
     public void contextLoads() {

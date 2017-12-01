@@ -32,7 +32,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         auth.inMemoryAuthentication()
             .withUser("wyf").password("wyf").roles("USER")
             .and()
-            .withUser("wisely").password("wisely").roles("USER");
+            .withUser("jack").password("jack").roles("USER");
     }
 
     //5忽略静态资源的拦截

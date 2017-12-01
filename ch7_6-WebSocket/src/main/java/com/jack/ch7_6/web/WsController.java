@@ -28,7 +28,7 @@ public class WsController {
     @MessageMapping("/chat")
     public void handleChat(Principal principal, String msg) { //2
         if (principal.getName().equals("wyf")) {//3
-            messagingTemplate.convertAndSendToUser("wisely",
+            messagingTemplate.convertAndSendToUser("jack",
                 "/queue/notifications", principal.getName() + "-send:"
                     + msg);
         } else {

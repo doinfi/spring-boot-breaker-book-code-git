@@ -1,4 +1,4 @@
-package com.wisely.support;
+package com.jack.jpa.support;
 
 import java.io.Serializable;
 import javax.persistence.EntityManager;

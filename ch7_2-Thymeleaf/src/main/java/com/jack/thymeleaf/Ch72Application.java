@@ -1,6 +1,6 @@
-package com.wisely;
+package com.jack.thymeleaf;
 
-import com.wisely.entity.Person;
+import com.jack.thymeleaf.entity.Person;
 import java.util.ArrayList;
 import java.util.List;
 import org.springframework.boot.SpringApplication;

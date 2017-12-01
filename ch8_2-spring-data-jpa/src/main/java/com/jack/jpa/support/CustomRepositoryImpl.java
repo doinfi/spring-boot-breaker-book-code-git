@@ -1,6 +1,6 @@
-package com.wisely.support;
+package com.jack.jpa.support;
 
-import static com.wisely.specs.CustomerSpecs.byAuto;
+import static com.jack.jpa.specs.CustomerSpecs.byAuto;
 
 import java.io.Serializable;
 import javax.persistence.EntityManager;
