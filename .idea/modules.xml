@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/ch7_4-ssl/ch7_4-ssl.iml" filepath="$PROJECT_DIR$/ch7_4-ssl/ch7_4-ssl.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch7_6-WebSocket/ch7_6-WebSocket.iml" filepath="$PROJECT_DIR$/ch7_6-WebSocket/ch7_6-WebSocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch7_7-Bootstrap-AngularJS/ch7_7-Bootstrap-AngularJS.iml" filepath="$PROJECT_DIR$/ch7_7-Bootstrap-AngularJS/ch7_7-Bootstrap-AngularJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch8_2-spring-data-jpa/ch8_2-spring-data-jpa.iml" filepath="$PROJECT_DIR$/ch8_2-spring-data-jpa/ch8_2-spring-data-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-breaker-book-code-git.iml" filepath="$PROJECT_DIR$/spring-boot-breaker-book-code-git.iml" />
     </modules>
   </component>

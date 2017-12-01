@@ -12,6 +12,7 @@
         <module name="ch7_4-ssl" />
         <module name="ch7_6-WebSocket" />
         <module name="ch7_7-Bootstrap-AngularJS" />
+        <module name="ch8_2-spring-data-jpa" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -39,6 +40,7 @@
       <module name="ch7_7" target="1.8" />
       <module name="ch7_7-Bootstrap-AngularJS" target="1.8" />
       <module name="ch8_2" target="1.8" />
+      <module name="ch8_2-spring-data-jpa" target="1.8" />
       <module name="ch8_3" target="1.8" />
       <module name="ch8_4" target="1.8" />
       <module name="ch8_5" target="1.6" />

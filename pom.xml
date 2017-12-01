@@ -41,7 +41,7 @@
         <module>ch7_4-ssl</module>
         <module>ch7_6-WebSocket</module>
         <module>ch7_7-Bootstrap-AngularJS</module>
-        <!--<module>ch8_2</module>-->
+        <module>ch8_2-spring-data-jpa</module>
         <!--<module>ch8_3</module>-->
         <!--<module>ch8_4</module>-->
         <!--<module>ch8_5</module>-->
