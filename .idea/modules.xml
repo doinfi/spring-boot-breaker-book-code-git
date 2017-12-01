@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ch5_2_2/ch5_2_2.iml" filepath="$PROJECT_DIR$/ch5_2_2/ch5_2_2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch6_2_3/ch6_2_3.iml" filepath="$PROJECT_DIR$/ch6_2_3/ch6_2_3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch6_4/ch6_4.iml" filepath="$PROJECT_DIR$/ch6_4/ch6_4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch7_2/ch7_2.iml" filepath="$PROJECT_DIR$/ch7_2/ch7_2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch7_4/ch7_4.iml" filepath="$PROJECT_DIR$/ch7_4/ch7_4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/highlight_spring4/highlight_spring4.iml" filepath="$PROJECT_DIR$/highlight_spring4/highlight_spring4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/parent.iml" filepath="$PROJECT_DIR$/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch6_2_3-hello-config/ch6_2_3-hello-config.iml" filepath="$PROJECT_DIR$/ch6_2_3-hello-config/ch6_2_3-hello-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch6_4-profile/ch6_4-profile.iml" filepath="$PROJECT_DIR$/ch6_4-profile/ch6_4-profile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch7_2-Thymeleaf/ch7_2-Thymeleaf.iml" filepath="$PROJECT_DIR$/ch7_2-Thymeleaf/ch7_2-Thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch7_4-ssl/ch7_4-ssl.iml" filepath="$PROJECT_DIR$/ch7_4-ssl/ch7_4-ssl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch7_6-WebSocket/ch7_6-WebSocket.iml" filepath="$PROJECT_DIR$/ch7_6-WebSocket/ch7_6-WebSocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch7_7-Bootstrap-AngularJS/ch7_7-Bootstrap-AngularJS.iml" filepath="$PROJECT_DIR$/ch7_7-Bootstrap-AngularJS/ch7_7-Bootstrap-AngularJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-breaker-book-code-git.iml" filepath="$PROJECT_DIR$/spring-boot-breaker-book-code-git.iml" />
     </modules>
   </component>
 </project>

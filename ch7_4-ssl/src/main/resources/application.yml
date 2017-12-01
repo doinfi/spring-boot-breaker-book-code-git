@@ -1,0 +1,18 @@
+logging:
+    level:
+        org:
+            springframework:
+                web: DEBUG
+
+server:
+    port: 8443
+    ssl:
+        key-store: .keystore
+        key-store-password: 111111
+        keyAlias: tomcat
+        keyStoreType: JKS
+
+spring:
+    mvc:
+        favicon:
+            enabled: false
