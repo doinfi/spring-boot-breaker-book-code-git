@@ -42,11 +42,11 @@
         <module>ch7_6-WebSocket</module>
         <module>ch7_7-Bootstrap-AngularJS</module>
         <module>ch8_2-spring-data-jpa</module>
-        <!--<module>ch8_3</module>-->
-        <!--<module>ch8_4</module>-->
-        <!--<module>ch8_5</module>-->
-        <!--<module>ch8_6_1</module>-->
-        <!--<module>ch8_6_2</module>-->
+        <module>ch8_3-spring-data-rest</module>
+        <module>ch8_4-transactional</module>
+        <module>ch8_5-cache</module>
+        <module>ch8_6_1-mongodb</module>
+        <module>ch8_6_2-redis</module>
         <!--<module>ch9_1</module>-->
         <!--<module>ch9_2</module>-->
         <!--<module>ch9_3_4</module>-->

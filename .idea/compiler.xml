@@ -13,6 +13,11 @@
         <module name="ch7_6-WebSocket" />
         <module name="ch7_7-Bootstrap-AngularJS" />
         <module name="ch8_2-spring-data-jpa" />
+        <module name="ch8_3-spring-data-rest" />
+        <module name="ch8_4-transactional" />
+        <module name="ch8_5-cache" />
+        <module name="ch8_6_1-mongodb" />
+        <module name="ch8_6_2-redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -42,10 +47,15 @@
       <module name="ch8_2" target="1.8" />
       <module name="ch8_2-spring-data-jpa" target="1.8" />
       <module name="ch8_3" target="1.8" />
+      <module name="ch8_3-spring-data-rest" target="1.8" />
       <module name="ch8_4" target="1.8" />
+      <module name="ch8_4-transactional" target="1.8" />
       <module name="ch8_5" target="1.6" />
+      <module name="ch8_5-cache" target="1.6" />
       <module name="ch8_6_1" target="1.8" />
+      <module name="ch8_6_1-mongodb" target="1.8" />
       <module name="ch8_6_2" target="1.8" />
+      <module name="ch8_6_2-redis" target="1.8" />
       <module name="ch9_1" target="1.8" />
       <module name="ch9_2" target="1.8" />
       <module name="ch9_3_4" target="1.8" />

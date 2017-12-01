@@ -9,6 +9,11 @@
       <module fileurl="file://$PROJECT_DIR$/ch7_6-WebSocket/ch7_6-WebSocket.iml" filepath="$PROJECT_DIR$/ch7_6-WebSocket/ch7_6-WebSocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch7_7-Bootstrap-AngularJS/ch7_7-Bootstrap-AngularJS.iml" filepath="$PROJECT_DIR$/ch7_7-Bootstrap-AngularJS/ch7_7-Bootstrap-AngularJS.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch8_2-spring-data-jpa/ch8_2-spring-data-jpa.iml" filepath="$PROJECT_DIR$/ch8_2-spring-data-jpa/ch8_2-spring-data-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch8_3-spring-data-rest/ch8_3-spring-data-rest.iml" filepath="$PROJECT_DIR$/ch8_3-spring-data-rest/ch8_3-spring-data-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch8_4-transactional/ch8_4-transactional.iml" filepath="$PROJECT_DIR$/ch8_4-transactional/ch8_4-transactional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch8_5-cache/ch8_5-cache.iml" filepath="$PROJECT_DIR$/ch8_5-cache/ch8_5-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch8_6_1-mongodb/ch8_6_1-mongodb.iml" filepath="$PROJECT_DIR$/ch8_6_1-mongodb/ch8_6_1-mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch8_6_2-redis/ch8_6_2-redis.iml" filepath="$PROJECT_DIR$/ch8_6_2-redis/ch8_6_2-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-breaker-book-code-git.iml" filepath="$PROJECT_DIR$/spring-boot-breaker-book-code-git.iml" />
     </modules>
   </component>
