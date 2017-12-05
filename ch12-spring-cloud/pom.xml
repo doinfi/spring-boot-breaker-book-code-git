@@ -7,8 +7,7 @@
     <groupId>com.jack</groupId>
     <artifactId>ch12-spring-cloud</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0-SNAPSHOT</version>
-    <name>Cloud Native App</name>
+    <version>1.0</version>
 
     <modules>
         <module>ch12-spring-cloud-config</module>

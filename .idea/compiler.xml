@@ -85,7 +85,7 @@
       <module name="ch8_4" target="1.8" />
       <module name="ch8_4-transactional" target="1.8" />
       <module name="ch8_5" target="1.6" />
-      <module name="ch8_5-cache" target="1.6" />
+      <module name="ch8_5-cache" target="1.8" />
       <module name="ch8_6_1" target="1.8" />
       <module name="ch8_6_1-mongodb" target="1.8" />
       <module name="ch8_6_2" target="1.8" />
