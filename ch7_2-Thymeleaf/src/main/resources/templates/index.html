@@ -17,14 +17,14 @@
     </div>
 </div>
 
-<div th:if="${not #lists.isEmpty(people)}">
+<div th:if="${not #lists.isEmpty(personList)}">
     <div class="panel panel-primary">
         <div class="panel-heading">
             <h3 class="panel-title">列表</h3>
         </div>
         <div class="panel-body">
             <ul class="list-group">
-                <li class="list-group-item" th:each="person:${people}">
+                <li class="list-group-item" th:each="person:${personList}">
                     <span th:text="${person.name}"></span>
                     <span th:text="${person.age}"></span>
                     <button class="btn" th:onclick="'getName(\'' + ${person.name} + '\');'">获得名字

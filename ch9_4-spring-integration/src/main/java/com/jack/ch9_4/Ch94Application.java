@@ -17,6 +17,7 @@ import org.springframework.integration.dsl.core.Pollers;
 import org.springframework.integration.dsl.file.Files;
 import org.springframework.integration.dsl.mail.Mail;
 import org.springframework.integration.feed.inbound.FeedEntryMessageSource;
+import org.springframework.integration.file.support.FileExistsMode;
 import org.springframework.integration.scheduling.PollerMetadata;
 
 /**

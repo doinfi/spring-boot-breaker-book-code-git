@@ -20,6 +20,7 @@
         <module name="ch12-spring-cloud-ui" />
         <module name="ch6_2_3-hello-config" />
         <module name="ch6_4-profile" />
+        <module name="ch7_2" />
         <module name="ch7_2-Thymeleaf" />
         <module name="ch7_4-ssl" />
         <module name="ch7_6-WebSocket" />
@@ -37,6 +38,7 @@
         <module name="ch9_4-spring-integration" />
         <module name="highlight_spring4" />
         <module name="highlight_springmvc4" />
+        <module name="thm" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -100,14 +102,15 @@
       <module name="ch9_4-spring-integration" target="1.8" />
       <module name="config" target="1.8" />
       <module name="discovery" target="1.8" />
-      <module name="highlight_spring4" target="1.8" />
-      <module name="highlight_springmvc4" target="1.8" />
+      <module name="highlight_spring4" target="1.5" />
+      <module name="highlight_springmvc4" target="1.5" />
       <module name="monitor" target="1.8" />
       <module name="parent" target="1.8" />
       <module name="person" target="1.8" />
       <module name="some" target="1.8" />
       <module name="spring-boot-breaker-book-code" target="1.8" />
-      <module name="spring-boot-breaker-book-code-git" target="1.5" />
+      <module name="spring-boot-breaker-book-code-git" target="1.8" />
+      <module name="thm" target="1.8" />
       <module name="ui" target="1.8" />
     </bytecodeTargetLevel>
   </component>
