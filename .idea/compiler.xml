@@ -107,6 +107,7 @@
       <module name="monitor" target="1.8" />
       <module name="parent" target="1.8" />
       <module name="person" target="1.8" />
+      <module name="poms" target="1.5" />
       <module name="some" target="1.8" />
       <module name="spring-boot-breaker-book-code" target="1.8" />
       <module name="spring-boot-breaker-book-code-git" target="1.8" />

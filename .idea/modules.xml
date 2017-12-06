@@ -17,7 +17,6 @@
       <module fileurl="file://$PROJECT_DIR$/ch12-spring-cloud/ch12-spring-cloud-ui/ch12-spring-cloud-ui.iml" filepath="$PROJECT_DIR$/ch12-spring-cloud/ch12-spring-cloud-ui/ch12-spring-cloud-ui.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch6_2_3-hello-config/ch6_2_3-hello-config.iml" filepath="$PROJECT_DIR$/ch6_2_3-hello-config/ch6_2_3-hello-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch6_4-profile/ch6_4-profile.iml" filepath="$PROJECT_DIR$/ch6_4-profile/ch6_4-profile.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../spring-boot-all-in-one-git/thymeleaf/ch7_2.iml" filepath="$PROJECT_DIR$/../spring-boot-all-in-one-git/thymeleaf/ch7_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch7_2-Thymeleaf/ch7_2-Thymeleaf.iml" filepath="$PROJECT_DIR$/ch7_2-Thymeleaf/ch7_2-Thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch7_4-ssl/ch7_4-ssl.iml" filepath="$PROJECT_DIR$/ch7_4-ssl/ch7_4-ssl.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch7_6-WebSocket/ch7_6-WebSocket.iml" filepath="$PROJECT_DIR$/ch7_6-WebSocket/ch7_6-WebSocket.iml" />
@@ -35,8 +34,8 @@
       <module fileurl="file://$PROJECT_DIR$/ch9_4-spring-integration/ch9_4-spring-integration.iml" filepath="$PROJECT_DIR$/ch9_4-spring-integration/ch9_4-spring-integration.iml" />
       <module fileurl="file://$PROJECT_DIR$/highlight_spring4/highlight_spring4.iml" filepath="$PROJECT_DIR$/highlight_spring4/highlight_spring4.iml" />
       <module fileurl="file://$PROJECT_DIR$/highlight_springmvc4/highlight_springmvc4.iml" filepath="$PROJECT_DIR$/highlight_springmvc4/highlight_springmvc4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/poms/poms.iml" filepath="$PROJECT_DIR$/poms/poms.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-breaker-book-code-git.iml" filepath="$PROJECT_DIR$/spring-boot-breaker-book-code-git.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../spring-boot-all-in-one-git/thymeleaf/thm.iml" filepath="$PROJECT_DIR$/../spring-boot-all-in-one-git/thymeleaf/thm.iml" />
     </modules>
   </component>
 </project>
