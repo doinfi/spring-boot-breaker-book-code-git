@@ -2,7 +2,7 @@ spring:
     datasource:
         driverClassName: com.mysql.jdbc.Driver
         password: Jack123!
-        url: jdbc:mysql://rm-wz939g2zz921yd9rjo.mysql.rds.aliyuncs.com:3306/ch8_5-cache?characterEncoding=utf8&useSSL=true
+        url: jdbc:mysql://rm-wz939g2zz921yd9rjo.mysql.rds.aliyuncs.com:3306/spring-boot-breaker?characterEncoding=utf8&useSSL=true
         username: root
     jackson:
         serialization:
