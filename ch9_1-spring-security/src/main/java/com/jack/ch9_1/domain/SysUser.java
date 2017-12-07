@@ -28,17 +28,17 @@ public class SysUser implements UserDetails { //1
     private String username;
     private String password;
     @ManyToMany(cascade = {CascadeType.REFRESH}, fetch = FetchType.EAGER)
-    private List<SysRole> sysRoleList;
+    private List<SysRole> roles;
 
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() { //2
-        List<GrantedAuthority> auths = new ArrayList<GrantedAuthority>();
-        List<SysRole> roles = this.getSysRoleList();
+        List<GrantedAuthority> grantedAuthorityList = new ArrayList<>();
+        List<SysRole> roles = this.getRoles();
         for (SysRole role : roles) {
-            auths.add(new SimpleGrantedAuthority(role.getName()));
+            grantedAuthorityList.add(new SimpleGrantedAuthority(role.getName()));
         }
-        return auths;
+        return grantedAuthorityList;
     }
 
     @Override

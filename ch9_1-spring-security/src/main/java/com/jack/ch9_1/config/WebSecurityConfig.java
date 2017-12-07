@@ -1,6 +1,6 @@
 package com.jack.ch9_1.config;
 
-import com.jack.ch9_1.security.CustomUserService;
+import com.jack.ch9_1.security.CustomUserServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -16,7 +16,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {//1
 
     @Bean
     UserDetailsService customUserService() { //2
-        return new CustomUserService();
+        return new CustomUserServiceImpl();
     }
 
     @Override
