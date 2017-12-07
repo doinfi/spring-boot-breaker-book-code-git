@@ -5,10 +5,10 @@ logging:
                 security: INFO
 spring:
     datasource:
-        driverClassName: oracle.jdbc.OracleDriver
-        password: boot
-        url: jdbc:oracle:thin:@localhost:1521:xe
-        username: boot
+        driverClassName: com.mysql.jdbc.Driver
+        password: root
+        url: jdbc:mysql://rm-wz939g2zz921yd9rjo.mysql.rds.aliyuncs.com:3306/spring-boot-breaker?characterEncoding=utf8&useSSL=true
+        username: Jack123!
     jpa:
         hibernate:
             ddl-auto: update

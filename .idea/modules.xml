@@ -34,7 +34,6 @@
       <module fileurl="file://$PROJECT_DIR$/ch9_4-spring-integration/ch9_4-spring-integration.iml" filepath="$PROJECT_DIR$/ch9_4-spring-integration/ch9_4-spring-integration.iml" />
       <module fileurl="file://$PROJECT_DIR$/highlight_spring4/highlight_spring4.iml" filepath="$PROJECT_DIR$/highlight_spring4/highlight_spring4.iml" />
       <module fileurl="file://$PROJECT_DIR$/highlight_springmvc4/highlight_springmvc4.iml" filepath="$PROJECT_DIR$/highlight_springmvc4/highlight_springmvc4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/poms/poms.iml" filepath="$PROJECT_DIR$/poms/poms.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-breaker-book-code-git.iml" filepath="$PROJECT_DIR$/spring-boot-breaker-book-code-git.iml" />
     </modules>
   </component>
