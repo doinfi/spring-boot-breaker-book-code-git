@@ -1,10 +1,9 @@
-package com.jack.ch9_3_4;
+package com.jack.activemq;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.jms.annotation.EnableJms;
 import org.springframework.jms.core.JmsTemplate;
 
 /**

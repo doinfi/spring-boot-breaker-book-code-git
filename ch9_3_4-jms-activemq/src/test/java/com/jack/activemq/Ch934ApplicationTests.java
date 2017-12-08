@@ -1,4 +1,4 @@
-package com.jack.ch9_3_4;
+package com.jack.activemq;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

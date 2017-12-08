@@ -1,4 +1,4 @@
-package com.jack.ch9_3_4;
+package com.jack.activemq;
 
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;

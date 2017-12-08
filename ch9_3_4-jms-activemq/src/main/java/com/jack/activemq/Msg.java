@@ -1,4 +1,4 @@
-package com.jack.ch9_3_4;
+package com.jack.activemq;
 
 import javax.jms.JMSException;
 import javax.jms.Message;
