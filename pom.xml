@@ -10,32 +10,32 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>ch6_2_3-hello-config</module>
-        <module>ch6_4-profile</module>
-        <module>ch7_2-Thymeleaf</module>
-        <module>ch7_4-ssl</module>
-        <module>ch7_6-WebSocket</module>
-        <module>ch7_7-Bootstrap-AngularJS</module>
-        <module>ch8_2-spring-data-jpa</module>
-        <module>ch8_3-spring-data-rest</module>
-        <module>ch8_4-transactional</module>
-        <module>ch8_5-cache</module>
-        <module>ch8_6_1-mongodb</module>
-        <module>ch8_6_2-redis</module>
-        <module>ch9_1-spring-security</module>
-        <module>ch9_2-spring-batch</module>
-        <module>ch9_3_4-jms-activemq</module>
-        <module>ch9_3_5-amqp-rabbitmq</module>
-        <module>ch9_4-spring-integration</module>
-        <module>ch10-hot-deploy</module>
-        <module>ch10_4-spring-boot-test</module>
-        <module>ch10-war</module>
-        <module>ch10-docker</module>
-        <module>ch11_1-http-monitor</module>
-        <module>ch11_3-ssh-monitor</module>
-        <module>ch12-spring-cloud</module>
-        <module>highlight_spring4</module>
-        <module>highlight_springmvc4</module>
+        <!--<module>ch6_2_3-hello-config</module>-->
+        <!--<module>ch6_4-profile</module>-->
+        <!--<module>ch7_2-Thymeleaf</module>-->
+        <!--<module>ch7_4-ssl</module>-->
+        <!--<module>ch7_6-WebSocket</module>-->
+        <!--<module>ch7_7-Bootstrap-AngularJS</module>-->
+        <!--<module>ch8_2-spring-data-jpa</module>-->
+        <!--<module>ch8_3-spring-data-rest</module>-->
+        <!--<module>ch8_4-transactional</module>-->
+        <!--<module>ch8_5-cache</module>-->
+        <!--<module>ch8_6_1-mongodb</module>-->
+        <!--<module>ch8_6_2-redis</module>-->
+        <!--<module>ch9_1-spring-security</module>-->
+        <!--<module>ch9_2-spring-batch</module>-->
+        <!--<module>ch9_3_4-jms-activemq</module>-->
+        <!--<module>ch9_3_5-amqp-rabbitmq</module>-->
+        <!--<module>ch9_4-spring-integration</module>-->
+        <!--<module>ch10-hot-deploy</module>-->
+        <!--<module>ch10_4-spring-boot-test</module>-->
+        <!--<module>ch10-war</module>-->
+        <!--<module>ch10-docker</module>-->
+        <!--<module>ch11_1-http-monitor</module>-->
+        <!--<module>ch11_3-ssh-monitor</module>-->
+        <!--<module>ch12-spring-cloud</module>-->
+        <!--<module>highlight_spring4</module>-->
+        <!--<module>highlight_springmvc4</module>-->
     </modules>
 
     <dependencyManagement>
@@ -64,8 +64,8 @@
         <jetty.version>8.1.8.v20121106</jetty.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <spring-boot.version>1.5.9.RELEASE</spring-boot.version>
-        <spring-cloud.version>Edgware.RELEASE</spring-cloud.version>
+        <spring-boot.version>2.0.2.RELEASE</spring-boot.version>
+        <spring-cloud.version>Finchley.RC1</spring-cloud.version>
     </properties>
 
     <dependencies>
@@ -119,13 +119,13 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.16.18</version>
+            <version>1.16.22</version>
         </dependency>
 
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>23.5-jre</version>
+            <version>25.1-jre</version>
         </dependency>
 
         <dependency>
