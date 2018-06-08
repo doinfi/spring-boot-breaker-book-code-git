@@ -1,7 +1,5 @@
 package com.jack.jpa;
 
-import com.jack.jpa.dao.PersonRepository;
-import com.jack.jpa.support.CustomRepositoryFactoryBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

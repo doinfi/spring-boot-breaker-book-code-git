@@ -1,8 +1,7 @@
 spring:
     datasource:
-        driverClassName: com.mysql.jdbc.Driver
-        password: root
         url: jdbc:mysql://rm-wz939g2zz921yd9rjo.mysql.rds.aliyuncs.com:3306/ch8_2-spring-data-jpa?characterEncoding=utf8&useSSL=true
+        password: root
         username: Jack123!
     jackson:
         serialization:

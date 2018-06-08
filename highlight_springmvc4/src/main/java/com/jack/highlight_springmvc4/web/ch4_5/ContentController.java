@@ -13,7 +13,6 @@ public class ContentController {
         DemoObj demoObj = new DemoObj(333l, "WYF");
         model.addAttribute("demoObj", demoObj);
         return "demoObj";
-
     }
 
 }

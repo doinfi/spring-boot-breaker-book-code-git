@@ -2,37 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ch10-docker/ch10-docker.iml" filepath="$PROJECT_DIR$/ch10-docker/ch10-docker.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch10-hot-deploy/ch10-hot-deploy.iml" filepath="$PROJECT_DIR$/ch10-hot-deploy/ch10-hot-deploy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch10-war/ch10-war.iml" filepath="$PROJECT_DIR$/ch10-war/ch10-war.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch10_4-spring-boot-test/ch10_4-spring-boot-test.iml" filepath="$PROJECT_DIR$/ch10_4-spring-boot-test/ch10_4-spring-boot-test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch11_1-http-monitor/ch11_1-http-monitor.iml" filepath="$PROJECT_DIR$/ch11_1-http-monitor/ch11_1-http-monitor.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch11_3-ssh-monitor/ch11_3-ssh-monitor.iml" filepath="$PROJECT_DIR$/ch11_3-ssh-monitor/ch11_3-ssh-monitor.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch12-spring-cloud/ch12-spring-cloud.iml" filepath="$PROJECT_DIR$/ch12-spring-cloud/ch12-spring-cloud.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch12-spring-cloud/ch12-spring-cloud-config/ch12-spring-cloud-config.iml" filepath="$PROJECT_DIR$/ch12-spring-cloud/ch12-spring-cloud-config/ch12-spring-cloud-config.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch12-spring-cloud/ch12-spring-cloud-discovery/ch12-spring-cloud-discovery.iml" filepath="$PROJECT_DIR$/ch12-spring-cloud/ch12-spring-cloud-discovery/ch12-spring-cloud-discovery.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch12-spring-cloud/ch12-spring-cloud-monitor/ch12-spring-cloud-monitor.iml" filepath="$PROJECT_DIR$/ch12-spring-cloud/ch12-spring-cloud-monitor/ch12-spring-cloud-monitor.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch12-spring-cloud/ch12-spring-cloud-person/ch12-spring-cloud-person.iml" filepath="$PROJECT_DIR$/ch12-spring-cloud/ch12-spring-cloud-person/ch12-spring-cloud-person.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch12-spring-cloud/ch12-spring-cloud-some/ch12-spring-cloud-some.iml" filepath="$PROJECT_DIR$/ch12-spring-cloud/ch12-spring-cloud-some/ch12-spring-cloud-some.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch12-spring-cloud/ch12-spring-cloud-ui/ch12-spring-cloud-ui.iml" filepath="$PROJECT_DIR$/ch12-spring-cloud/ch12-spring-cloud-ui/ch12-spring-cloud-ui.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch6_2_3-hello-config/ch6_2_3-hello-config.iml" filepath="$PROJECT_DIR$/ch6_2_3-hello-config/ch6_2_3-hello-config.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch6_4-profile/ch6_4-profile.iml" filepath="$PROJECT_DIR$/ch6_4-profile/ch6_4-profile.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch7_2-Thymeleaf/ch7_2-Thymeleaf.iml" filepath="$PROJECT_DIR$/ch7_2-Thymeleaf/ch7_2-Thymeleaf.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch7_4-ssl/ch7_4-ssl.iml" filepath="$PROJECT_DIR$/ch7_4-ssl/ch7_4-ssl.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch7_6-WebSocket/ch7_6-WebSocket.iml" filepath="$PROJECT_DIR$/ch7_6-WebSocket/ch7_6-WebSocket.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch7_7-Bootstrap-AngularJS/ch7_7-Bootstrap-AngularJS.iml" filepath="$PROJECT_DIR$/ch7_7-Bootstrap-AngularJS/ch7_7-Bootstrap-AngularJS.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch8_2-spring-data-jpa/ch8_2-spring-data-jpa.iml" filepath="$PROJECT_DIR$/ch8_2-spring-data-jpa/ch8_2-spring-data-jpa.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch8_3-spring-data-rest/ch8_3-spring-data-rest.iml" filepath="$PROJECT_DIR$/ch8_3-spring-data-rest/ch8_3-spring-data-rest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch8_4-transactional/ch8_4-transactional.iml" filepath="$PROJECT_DIR$/ch8_4-transactional/ch8_4-transactional.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch8_5-cache/ch8_5-cache.iml" filepath="$PROJECT_DIR$/ch8_5-cache/ch8_5-cache.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch8_6_1-mongodb/ch8_6_1-mongodb.iml" filepath="$PROJECT_DIR$/ch8_6_1-mongodb/ch8_6_1-mongodb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch8_6_2-redis/ch8_6_2-redis.iml" filepath="$PROJECT_DIR$/ch8_6_2-redis/ch8_6_2-redis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch9_1-spring-security/ch9_1-spring-security.iml" filepath="$PROJECT_DIR$/ch9_1-spring-security/ch9_1-spring-security.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch9_2-spring-batch/ch9_2-spring-batch.iml" filepath="$PROJECT_DIR$/ch9_2-spring-batch/ch9_2-spring-batch.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch9_3_4-jms-activemq/ch9_3_4-jms-activemq.iml" filepath="$PROJECT_DIR$/ch9_3_4-jms-activemq/ch9_3_4-jms-activemq.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch9_3_5-amqp-rabbitmq/ch9_3_5-amqp-rabbitmq.iml" filepath="$PROJECT_DIR$/ch9_3_5-amqp-rabbitmq/ch9_3_5-amqp-rabbitmq.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch9_4-spring-integration/ch9_4-spring-integration.iml" filepath="$PROJECT_DIR$/ch9_4-spring-integration/ch9_4-spring-integration.iml" />
-      <module fileurl="file://$PROJECT_DIR$/highlight_spring4/highlight_spring4.iml" filepath="$PROJECT_DIR$/highlight_spring4/highlight_spring4.iml" />
       <module fileurl="file://$PROJECT_DIR$/highlight_springmvc4/highlight_springmvc4.iml" filepath="$PROJECT_DIR$/highlight_springmvc4/highlight_springmvc4.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-breaker-book-code-git.iml" filepath="$PROJECT_DIR$/spring-boot-breaker-book-code-git.iml" />
     </modules>

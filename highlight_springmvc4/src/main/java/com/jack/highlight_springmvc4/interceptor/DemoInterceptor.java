@@ -1,15 +1,16 @@
 package com.jack.highlight_springmvc4.interceptor;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 public class DemoInterceptor extends HandlerInterceptorAdapter {//1
 
     @Override
     public boolean preHandle(HttpServletRequest request, //2
-        HttpServletResponse response, Object handler) throws Exception {
+        HttpServletResponse response, Object handler) {
         long startTime = System.currentTimeMillis();
         request.setAttribute("startTime", startTime);
         return true;
@@ -18,7 +19,7 @@ public class DemoInterceptor extends HandlerInterceptorAdapter {//1
     @Override
     public void postHandle(HttpServletRequest request, //3
         HttpServletResponse response, Object handler,
-        ModelAndView modelAndView) throws Exception {
+        ModelAndView modelAndView) {
         long startTime = (Long) request.getAttribute("startTime");
         request.removeAttribute("startTime");
         long endTime = System.currentTimeMillis();

@@ -22,11 +22,8 @@ public class Person {
     @Id //2
     @GeneratedValue //3
     private Long id;
-
     private String name;
-
     private Integer age;
-
     private String address;
     
 }

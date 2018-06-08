@@ -1,8 +1,9 @@
 package com.jack.highlight_springmvc4;
 
-import com.jack.highlight_springmvc4.messageconverter.MyMessageConverter;
-import com.jack.highlight_springmvc4.interceptor.DemoInterceptor;
 import java.util.List;
+
+import com.jack.highlight_springmvc4.interceptor.DemoInterceptor;
+import com.jack.highlight_springmvc4.messageconverter.MyMessageConverter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

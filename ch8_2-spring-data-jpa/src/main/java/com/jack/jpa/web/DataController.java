@@ -16,8 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class DataController {
-
-    //1 Spring Data JPA已自动为你注册bean，所以可自动注入
     @Autowired
     PersonRepository personRepository;
 

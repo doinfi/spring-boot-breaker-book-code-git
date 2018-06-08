@@ -1,16 +1,15 @@
 package com.jack.highlight_springmvc4.web.ch4_5;
 
-import java.util.Random;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+import java.util.Random;
+
+@RestController
 public class SseController {
 
     @RequestMapping(value = "/push", produces = "text/event-stream") //1
-    public @ResponseBody
-    String push() {
+    public String push() {
         Random r = new Random();
         try {
             Thread.sleep(5000);

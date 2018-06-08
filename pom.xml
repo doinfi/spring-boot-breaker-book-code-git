@@ -35,7 +35,7 @@
         <!--<module>ch11_3-ssh-monitor</module>-->
         <!--<module>ch12-spring-cloud</module>-->
         <!--<module>highlight_spring4</module>-->
-        <!--<module>highlight_springmvc4</module>-->
+        <module>highlight_springmvc4</module>
     </modules>
 
     <dependencyManagement>
@@ -48,24 +48,24 @@
                 <scope>import</scope>
             </dependency>
 
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>${spring-cloud.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
+            <!--<dependency>-->
+                <!--<groupId>org.springframework.cloud</groupId>-->
+                <!--<artifactId>spring-cloud-dependencies</artifactId>-->
+                <!--<version>${spring-cloud.version}</version>-->
+                <!--<type>pom</type>-->
+                <!--<scope>import</scope>-->
+            <!--</dependency>-->
         </dependencies>
     </dependencyManagement>
 
     <properties>
         <file.encoding>UTF-8</file.encoding>
         <java.version>1.8</java.version>
-        <jetty.version>8.1.8.v20121106</jetty.version>
+        <!--<jetty.version>8.1.8.v20121106</jetty.version>-->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-boot.version>2.0.2.RELEASE</spring-boot.version>
-        <spring-cloud.version>Finchley.RC1</spring-cloud.version>
+        <!--<spring-cloud.version>Finchley.RC1</spring-cloud.version>-->
     </properties>
 
     <dependencies>
@@ -96,11 +96,11 @@
         </dependency>
 
 
-        <dependency>
-            <groupId>org.springframework.data</groupId>
-            <artifactId>spring-data-rest-hal-browser</artifactId>
-            <version>3.0.1.RELEASE</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.data</groupId>-->
+            <!--<artifactId>spring-data-rest-hal-browser</artifactId>-->
+            <!--<version>3.0.1.RELEASE</version>-->
+        <!--</dependency>-->
 
         <!--database-->
         <dependency>
@@ -119,14 +119,14 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.16.22</version>
+            <version>1.18.0</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-            <version>25.1-jre</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.google.guava</groupId>-->
+            <!--<artifactId>guava</artifactId>-->
+            <!--<version>25.1-jre</version>-->
+        <!--</dependency>-->
 
         <dependency>
             <groupId>org.apache.commons</groupId>

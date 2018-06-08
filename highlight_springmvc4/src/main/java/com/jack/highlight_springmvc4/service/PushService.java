@@ -10,15 +10,14 @@ public class PushService {
     private DeferredResult<String> deferredResult; //1
 
     public DeferredResult<String> getAsyncUpdate() {
-        deferredResult = new DeferredResult<String>();
+        deferredResult = new DeferredResult<>();
         return deferredResult;
     }
 
     @Scheduled(fixedDelay = 5000)
     public void refresh() {
         if (deferredResult != null) {
-            deferredResult.setResult(new Long(System.currentTimeMillis())
-                .toString());
+            deferredResult.setResult(new Long(System.currentTimeMillis()).toString());
         }
     }
 
