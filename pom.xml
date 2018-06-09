@@ -4,6 +4,13 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.2.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
     <groupId>com.jack</groupId>
     <artifactId>spring-boot-breaker-book-code-git</artifactId>
     <version>1.0</version>
@@ -22,7 +29,7 @@
         <!--<module>ch8_5-cache</module>-->
         <!--<module>ch8_6_1-mongodb</module>-->
         <!--<module>ch8_6_2-redis</module>-->
-        <module>ch9_1-spring-security</module>
+        <!--<module>ch9_1-spring-security</module>-->
         <!--<module>ch9_2-spring-batch</module>-->
         <!--<module>ch9_3_4-jms-activemq</module>-->
         <!--<module>ch9_3_5-amqp-rabbitmq</module>-->
@@ -38,24 +45,11 @@
         <!--<module>highlight_springmvc4</module>-->
     </modules>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-parent</artifactId>
-                <version>${spring-boot.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
     <properties>
         <file.encoding>UTF-8</file.encoding>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <spring-boot.version>2.0.2.RELEASE</spring-boot.version>
     </properties>
 
     <dependencies>
@@ -85,27 +79,18 @@
             <artifactId>spring-boot-devtools</artifactId>
         </dependency>
 
-
-        <!--<dependency>-->
-            <!--<groupId>org.springframework.data</groupId>-->
-            <!--<artifactId>spring-data-rest-hal-browser</artifactId>-->
-            <!--<version>3.0.1.RELEASE</version>-->
-        <!--</dependency>-->
-
-        <!--database-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.46</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <version>1.4.196</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.h2database</groupId>-->
+            <!--<artifactId>h2</artifactId>-->
+            <!--<version>1.4.196</version>-->
+        <!--</dependency>-->
 
-        <!--3rd-utils-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -135,20 +120,8 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.7.0</version>
-                <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
-                    <encoding>UTF-8</encoding>
-                </configuration>
-            </plugin>
-
-            <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>${spring-boot.version}</version>
             </plugin>
         </plugins>
     </build>
