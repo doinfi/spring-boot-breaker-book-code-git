@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ch7_2" />
+        <module name="ch9_1-spring-security" />
         <module name="thm" />
       </profile>
     </annotationProcessing>

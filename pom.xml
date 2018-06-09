@@ -22,7 +22,7 @@
         <!--<module>ch8_5-cache</module>-->
         <!--<module>ch8_6_1-mongodb</module>-->
         <!--<module>ch8_6_2-redis</module>-->
-        <!--<module>ch9_1-spring-security</module>-->
+        <module>ch9_1-spring-security</module>
         <!--<module>ch9_2-spring-batch</module>-->
         <!--<module>ch9_3_4-jms-activemq</module>-->
         <!--<module>ch9_3_5-amqp-rabbitmq</module>-->
