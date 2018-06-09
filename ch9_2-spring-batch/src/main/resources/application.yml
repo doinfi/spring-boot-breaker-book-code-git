@@ -8,7 +8,6 @@ spring:
         job:
             enabled: false
     datasource:
-        driverClassName: oracle.jdbc.OracleDriver
-        password: boot
         url: jdbc:oracle:thin:@localhost:1521:xe
         username: boot
+        password: boot
