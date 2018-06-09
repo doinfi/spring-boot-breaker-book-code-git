@@ -1,18 +1,19 @@
 package com.jack.ch9_1.domain;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
+import lombok.Data;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
+
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToMany;
-import lombok.Data;
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
-import org.springframework.security.core.userdetails.UserDetails;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
 
 /**
  * @author yangyueming
@@ -22,6 +23,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 public class SysUser implements UserDetails { //1
 
     private static final long serialVersionUID = 1L;
+
     @Id
     @GeneratedValue
     private Long id;
@@ -34,8 +36,8 @@ public class SysUser implements UserDetails { //1
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() { //2
         List<GrantedAuthority> grantedAuthorityList = new ArrayList<>();
-        List<SysRole> roles = this.getRoles();
-        for (SysRole role : roles) {
+        List<SysRole> sysRoleList = this.getRoles();
+        for (SysRole role : sysRoleList) {
             grantedAuthorityList.add(new SimpleGrantedAuthority(role.getName()));
         }
         return grantedAuthorityList;

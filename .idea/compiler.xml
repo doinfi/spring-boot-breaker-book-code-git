@@ -6,15 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ch7_2" />
-        <module name="thm" />
+        <module name="ch9_1-spring-security" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ch8_2-spring-data-jpa" target="1.5" />
-      <module name="ch8_4-transactional" target="1.8" />
+      <module name="ch8_2-spring-data-jpa" target="1.8" />
       <module name="ch9_1-spring-security" target="1.8" />
-      <module name="ch9_2-spring-batch" target="1.8" />
       <module name="spring-boot-breaker-book-code-git" target="1.8" />
     </bytecodeTargetLevel>
   </component>
