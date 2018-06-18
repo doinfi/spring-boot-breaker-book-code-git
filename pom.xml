@@ -7,7 +7,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.0.2.RELEASE</version>
+        <version>2.0.3.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -29,7 +29,7 @@
         <!--<module>ch8_5-cache</module>-->
         <!--<module>ch8_6_1-mongodb</module>-->
         <!--<module>ch8_6_2-redis</module>-->
-        <module>ch9_1-spring-security</module>
+        <!--<module>ch9_1-spring-security</module>-->
         <!--<module>ch9_2-spring-batch</module>-->
         <!--<module>ch9_3_4-jms-activemq</module>-->
         <!--<module>ch9_3_5-amqp-rabbitmq</module>-->

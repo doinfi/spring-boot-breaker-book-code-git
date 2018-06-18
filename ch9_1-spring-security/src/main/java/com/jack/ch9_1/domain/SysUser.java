@@ -37,8 +37,8 @@ public class SysUser implements UserDetails { //1
     public Collection<? extends GrantedAuthority> getAuthorities() { //2
         List<GrantedAuthority> grantedAuthorityList = new ArrayList<>();
         List<SysRole> sysRoleList = this.getRoles();
-        for (SysRole role : sysRoleList) {
-            grantedAuthorityList.add(new SimpleGrantedAuthority(role.getName()));
+        for (SysRole sysRole : sysRoleList) {
+            grantedAuthorityList.add(new SimpleGrantedAuthority(sysRole.getName()));
         }
         return grantedAuthorityList;
     }
