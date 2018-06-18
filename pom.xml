@@ -16,6 +16,7 @@
     <version>1.0</version>
     <packaging>pom</packaging>
 
+
     <modules>
         <!--<module>ch6_2_3-hello-config</module>-->
         <!--<module>ch6_4-profile</module>-->
